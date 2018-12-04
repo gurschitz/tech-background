@@ -16,7 +16,7 @@ function Intro({}) {
         <Heading size={2}>Thank you!</Heading>
         <Text>
           This presentation was built using{" "}
-          <a href="https://github.com/microsoft/typescript">TypeScript</a>,
+          <a href="https://github.com/microsoft/typescript">TypeScript</a>,{" "}
           <a href="https://github.com/facebook/react">React</a> and{" "}
           <a href="https://github.com/FormidableLabs/spectacle">Spectacle</a>.
           You can find the source code here:{" "}
