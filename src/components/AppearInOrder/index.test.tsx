@@ -63,7 +63,7 @@ describe("transitions", () => {
       const arrowDown = 40;
       const arrowUp = 38;
 
-      const { debug, container, queryByText } = render(
+      const { container, queryByText } = render(
         <AppearInOrder>
           <AppearInOrder.Element priority={1}>
             <div>1</div>

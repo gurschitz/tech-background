@@ -7,11 +7,22 @@ function Smartmenu() {
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>Smartmenu</Heading>
-        <Heading size={4}>Technical Co-Founder</Heading>
+        <Text>Technical Co-Founder</Text>
+        <Text textSize="15">
+          <a href="https://smartmenu.io">{`https://smartmenu.io`}</a>
+        </Text>
         <Layout>
-          <Image src="/images/smartmenu.png" width="auto" height={300} />
+          <div>
+            <Image src="/images/smartmenu.png" width="auto" height={300} />
+          </div>
           <Fill>
             <AppearInOrder>
+              <div style={{ paddingLeft: 20 }}>
+                <Text textAlign="start">
+                  - successor project of tablet ordering system at Restaurant
+                  Viereck
+                </Text>
+              </div>
               <div style={{ paddingLeft: 20 }}>
                 <Text textAlign="start">
                   - Management Tool with <strong>AngularJS (1.x)</strong>
@@ -26,8 +37,8 @@ function Smartmenu() {
                   - Backend <strong>Ruby on Rails</strong>
                 </Text>
                 <Text textAlign="start" textSize="20">
-                  RESTful API with Grape, Unit Tests with RSpec, Database:
-                  PostgreSQL & Redis
+                  RESTful API with Grape, Unit Tests with RSpec, ActiveRecord,
+                  Database: PostgreSQL & Redis
                 </Text>
               </div>
               <div style={{ paddingLeft: 20 }}>

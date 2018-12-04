@@ -7,9 +7,14 @@ function GoodbagLandingPage() {
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>Chatbird</Heading>
-        <Heading size={4}>Co-Founder & CTO</Heading>
+        <Text>Co-Founder & CTO</Text>
+        <Text textSize="15">
+          <a href="https://chatbird.io">{`https://chatbird.io`}</a>
+        </Text>
         <Layout>
-          <Image src="/images/chatbird-logo.png" width="auto" height={80} />
+          <div>
+            <Image src="/images/chatbird-logo.png" width="auto" height={120} />
+          </div>
           <Fill>
             <AppearInOrder>
               <div style={{ paddingLeft: 60 }}>
@@ -19,11 +24,11 @@ function GoodbagLandingPage() {
                 </Text>
               </div>
               <div style={{ paddingLeft: 60 }}>
-                <Text textAlign="start">
+                <Text textAlign="start" textSize="20">
                   - over <strong>30 conferences and events</strong> served with
                   MVP
                 </Text>
-                <Text textAlign="start" textSize="20">
+                <Text textAlign="start" textSize="15">
                   including Pioneers, React Amsterdam, Central European Startup
                   Awards
                 </Text>

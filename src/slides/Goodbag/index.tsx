@@ -7,9 +7,14 @@ function Goodbag() {
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>Freelancing</Heading>
-        <Heading size={4}>Goodbag</Heading>
+        <Text>Goodbag</Text>
+        <Text textSize="15">
+          <a href="https://goodbag.io">{`https://goodbag.io`}</a>
+        </Text>
         <Layout>
-          <Image src="/images/goodbag.jpg" width="auto" height={300} />
+          <div>
+            <Image src="/images/goodbag.jpg" width="auto" height={300} />
+          </div>
           <Fill>
             <AppearInOrder>
               <AppearInOrder.Element>

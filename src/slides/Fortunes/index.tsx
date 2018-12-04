@@ -16,9 +16,14 @@ function Fortunes() {
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>Freelancing</Heading>
-        <Heading size={4}>ForTunes</Heading>
+        <Text>ForTunes</Text>
+        <Text textSize="15">
+          <a href="https://fortunes.io">{`https://fortunes.io`}</a>
+        </Text>
         <Layout>
-          <Image src="/images/fortunes.png" width="auto" height={350} />
+          <div>
+            <Image src="/images/fortunes.png" width="auto" height={350} />
+          </div>
           <Fill>
             <AppearInOrder>
               <AppearInOrder.Element>

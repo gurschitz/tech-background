@@ -1,24 +1,20 @@
 import React from "react";
 import { Slide, Layout, Fill, Text, Image, Heading } from "spectacle";
-import Enter from "../../components/Enter";
-import useKeyPressCount from "../../hooks/useKeyPressCount";
 import AppearInOrder from "../../components/AppearInOrder";
 
 function GoodbagLandingPage() {
-  const value = useKeyPressCount({
-    from: 1,
-    to: 1,
-    decrementKey: 38,
-    incrementKey: 40
-  });
-
   return (
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>usereact.io</Heading>
-        <Heading size={4}>React Course in Amstetten</Heading>
+        <Text>React Course in Amstetten</Text>
         <Layout>
-          <Image src="/images/use-react-logo.svg" width="auto" height={400} />
+          <div>
+            <Image src="/images/use-react-logo.svg" width="auto" height={400} />
+            <Text textSize="15">
+              <a href="https://usereact.io">{`https://usereact.io`}</a>
+            </Text>
+          </div>
           <Fill>
             <AppearInOrder>
               <div style={{ paddingLeft: 20 }}>

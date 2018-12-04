@@ -16,9 +16,14 @@ function Ntry() {
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>Freelancing</Heading>
-        <Heading size={4}>NTRY</Heading>
+        <Text>NTRY</Text>
+        <Text textSize="15">
+          <a href="https://filmcasino.at">{`https://filmcasino.at`}</a>
+        </Text>
         <Layout>
-          <Image src="/images/ntry-widget.png" width="auto" height={300} />
+          <div>
+            <Image src="/images/ntry-widget.png" width="auto" height={300} />
+          </div>
           <Fill>
             <AppearInOrder>
               <AppearInOrder.Element>

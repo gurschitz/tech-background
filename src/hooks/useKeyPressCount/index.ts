@@ -9,12 +9,13 @@ interface IUseKeyPressCount {
 }
 
 function useKeyPressCount({
-  from = 1,
-  to = 2,
+  from,
+  to,
   incrementKey,
   decrementKey
 }: IUseKeyPressCount) {
   const [currentValue, setCurrentValue] = useState(from);
+  const detectKeys = [incrementKey, decrementKey];
 
   useKey(
     (pressedKey: string | number) => {
@@ -36,7 +37,7 @@ function useKeyPressCount({
       }
     },
     {
-      detectKeys: [incrementKey, decrementKey]
+      detectKeys
     }
   );
 

@@ -16,36 +16,37 @@ function Pioneers() {
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
         <Heading size={3}>Freelancing</Heading>
-        <Heading size={4}>Pioneers Festival 2017</Heading>
+        <Text>Piobot for Pioneers Festival 2017</Text>
+        <Text textSize="15">
+          <a href="https://www.facebook.com/piobot/">{`https://www.facebook.com/piobot/`}</a>
+        </Text>
         <Layout>
-          <Image src="/images/piobot.png" width="auto" height={300} />
+          <div>
+            <Image src="/images/piobot.png" width="auto" height={300} />
+          </div>
           <Fill>
             <AppearInOrder>
-              <AppearInOrder.Element>
-                <div style={{ paddingLeft: 20 }}>
-                  <Text textAlign="start">
-                    - <strong>Ruby on Rails</strong> backend
-                  </Text>
-                  <Text textAlign="start" textSize="20">
-                    Chatbot on the Facebook Messenger Platform
-                  </Text>
-                </div>
-              </AppearInOrder.Element>
-              <AppearInOrder.Element>
-                <div style={{ paddingLeft: 20 }}>
-                  <Text textAlign="start">
-                    - <strong>React</strong> webviews
-                  </Text>
-                  <Text textAlign="start" textSize="20">
-                    Webpacker, react-rails
-                  </Text>
-                </div>
-              </AppearInOrder.Element>
-              <AppearInOrder.Element>
-                <div style={{ paddingLeft: 20 }}>
-                  <Text textAlign="start">- predecessor of Chatbird</Text>
-                </div>
-              </AppearInOrder.Element>
+              <div style={{ paddingLeft: 20 }}>
+                <Text textAlign="start">
+                  - <strong>Ruby on Rails</strong> backend
+                </Text>
+                <Text textAlign="start" textSize="20">
+                  Chatbot on the Facebook Messenger Platform
+                </Text>
+              </div>
+              <div style={{ paddingLeft: 20 }}>
+                <Text textAlign="start">
+                  - <strong>React</strong> webviews
+                </Text>
+                <Text textAlign="start" textSize="20">
+                  Webpacker, react-rails
+                </Text>
+              </div>
+              <div style={{ paddingLeft: 20 }}>
+                <Text textAlign="start">
+                  - predecessor of project <strong>Chatbird</strong>
+                </Text>
+              </div>
             </AppearInOrder>
           </Fill>
         </Layout>

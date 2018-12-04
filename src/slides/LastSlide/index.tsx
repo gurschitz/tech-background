@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Text } from "spectacle";
+import { Slide, Text, Heading } from "spectacle";
 
 function Intro({}) {
   return (
@@ -13,10 +13,17 @@ function Intro({}) {
           flexDirection: "column"
         }}
       >
+        <Heading size={2}>Thank you!</Heading>
         <Text>
           This presentation was built using{" "}
           <a href="https://github.com/facebook/react">React</a> and{" "}
-          <a href="https://github.com/FormidableLabs/spectacle">Spectacle</a>. The source code can be found here: <a href="https://github.com/gurschitz/tech-background">https://github.com/gurschitz/tech-background</a>
+          <a href="https://github.com/FormidableLabs/spectacle">Spectacle</a>.
+          You can find the source code here:{" "}
+          <a href="https://github.com/gurschitz/tech-background">
+            tech-background source code
+          </a>
+          . The images with browser frames were created using{" "}
+          <a href="https://browserframe.com">Browserframe</a>.
         </Text>
       </div>
     </Slide>
