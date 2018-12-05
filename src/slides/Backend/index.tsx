@@ -24,8 +24,8 @@ function Backend() {
             </Text>
             <Text textAlign="start">
               <i>Ruby on Rails</i>: JavaScript SDK for Vendors (Widget), PDF
-              Generation with <i>prawn</i>, Automated Emails, Integration with
-              payment providers (Sofort, Wirecard, Paypal)
+              Generation with prawn, Automated Emails, Integration with payment
+              providers (Sofort, Wirecard, Paypal)
             </Text>
           </div>
           <div style={{ paddingLeft: 20 }}>

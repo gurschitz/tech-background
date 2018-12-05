@@ -14,8 +14,7 @@ function Frontend() {
               <strong>Smartmenu</strong>
             </Text>
             <Text textAlign="start">
-              <i>AngularJS (1.x)</i>: first work experience with JavaScript,
-              CSS, HTML
+              <i>AngularJS</i>: first work experience with JavaScript, CSS, HTML
             </Text>
             <Text textAlign="start">
               <i>Android</i>: digital menu app, used at Restaurant Viereck
@@ -30,11 +29,13 @@ function Frontend() {
               <strong>Goodbag (Smart shopping bag / loyalty program)</strong>
             </Text>
             <Text textAlign="start">
-              <i>Android App</i> for Vendors, <i>AngularJS (1.x)</i> Management
-              Tool
+              <i>Android</i>: App for Vendors
             </Text>
             <Text textAlign="start">
-              <i>React</i> Landing page: React Router, Redux, Webpack, SASS,
+              <i>AngularJS</i>: Management Tool
+            </Text>
+            <Text textAlign="start">
+              <i>React</i>: Landing page; React Router, Redux, Webpack, SASS,
               I18n
             </Text>
           </div>

@@ -18,13 +18,14 @@ function Intro({}) {
           <Heading size={2}>Thanks! Questions?</Heading>
         </Typist>
         <Text>
-          Presentation built with{" "}
-          <a href="https://github.com/microsoft/typescript">TypeScript</a>,{" "}
-          <a href="https://github.com/facebook/react">React</a> and{" "}
-          <a href="https://github.com/FormidableLabs/spectacle">Spectacle</a>.
+          Presentation built with <strong>TypeScript</strong>,{" "}
+          <strong>React</strong> and <strong>Spectacle</strong>.{" "}
+          <a href="https://github.com/gurschitz/tech-background">Source Code</a>
+          .
         </Text>
         <Text>
-          <a href="https://github.com/gurschitz/tech-background">Source Code</a>
+          View at{" "}
+          <a href="https://tech.usereact.io">{`https://tech.usereact.io`}</a>
         </Text>
       </div>
     </Slide>
