@@ -1,17 +1,15 @@
 import React from "react";
-import { Slide, Layout, Image, Heading, Text } from "spectacle";
+import { Slide, Image, Heading } from "spectacle";
 
 function GoodbagLandingPage() {
   return (
     <Slide align="flex-start flex-start">
       <div style={{ height: "100%" }}>
-        <Heading size={3}>Open Source</Heading>
-        <Text>GitHub: gurschitz</Text>
-        <Text textSize="15">
-          <a href="https://github.com/gurschitz">{`https://github.com/gurschitz`}</a>
-        </Text>
+        <Heading size={3}>
+          GitHub: <a href="https://github.com/gurschitz">gurschitz</a>
+        </Heading>
         <div>
-          <Image src="/images/github.png" width="auto" height={400} />
+          <Image src="/images/github.png" width="auto" height={500} />
         </div>
       </div>
     </Slide>

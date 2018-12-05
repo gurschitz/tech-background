@@ -2,18 +2,13 @@ import React from "react";
 import { Deck } from "spectacle";
 import Intro from "./slides/Intro";
 import Education from "./slides/Education";
-import Smartmenu from "./slides/Smartmenu";
-import Goodbag from "./slides/Goodbag";
-import GoodbagLandingPage from "./slides/GoodbagLandingPage";
-import Ntry from "./slides/Ntry";
-import Pioneers from "./slides/Pioneers";
-import Chatbird1 from "./slides/Chatbird1";
-import Chatbird2 from "./slides/Chatbird2";
+import Frontend from "./slides/Frontend";
+import Frontend2 from "./slides/Frontend2";
 import Github from "./slides/Github";
-import UseReact from "./slides/UseReact";
+import Backend from "./slides/Backend";
 import Outro from "./slides/Outro";
-import LastSlide from "./slides/LastSlide";
 import createTheme from "spectacle-theme-nova";
+import Heart from "./slides/Heart";
 
 const theme = createTheme();
 
@@ -22,17 +17,12 @@ function App() {
     <Deck theme={theme}>
       <Intro />
       <Education />
-      <Smartmenu />
-      <Goodbag />
-      <GoodbagLandingPage />
-      <Ntry />
-      <Pioneers />
-      <Chatbird1 />
-      <Chatbird2 />
+      <Backend />
+      <Frontend />
+      <Frontend2 />
       <Github />
-      <UseReact />
+      <Heart />
       <Outro />
-      <LastSlide />
     </Deck>
   );
 }

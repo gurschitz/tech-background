@@ -16,6 +16,7 @@
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-fade-in": "^0.1.6",
+    "react-pose": "^4.0.3",
     "react-scripts": "2.1.1",
     "react-spring": "^6.1.10",
     "react-testing-library": "^5.3.1",
