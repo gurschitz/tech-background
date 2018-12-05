@@ -1,5 +1,5 @@
 import React from "react";
-import { Slide, Layout, Fill, Text, Image, Heading } from "spectacle";
+import { Slide, Text, Heading } from "spectacle";
 import AppearInOrder from "../../components/AppearInOrder";
 
 function Frontend() {

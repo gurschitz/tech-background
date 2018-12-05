@@ -1,14 +1,14 @@
 import React from "react";
 import { Deck } from "spectacle";
+import createTheme from "spectacle-theme-nova";
 import Intro from "./slides/Intro";
 import Education from "./slides/Education";
-import Frontend from "./slides/Frontend";
-import Frontend2 from "./slides/Frontend2";
-import Github from "./slides/Github";
 import Backend from "./slides/Backend";
+import Frontend from "./slides/Frontend";
+import FrontendChatbird from "./slides/FrontendChatbird";
+import Github from "./slides/Github";
+import UseReact from "./slides/UseReact";
 import Outro from "./slides/Outro";
-import createTheme from "spectacle-theme-nova";
-import Heart from "./slides/Heart";
 
 const theme = createTheme();
 
@@ -19,9 +19,9 @@ function App() {
       <Education />
       <Backend />
       <Frontend />
-      <Frontend2 />
+      <FrontendChatbird />
       <Github />
-      <Heart />
+      <UseReact />
       <Outro />
     </Deck>
   );

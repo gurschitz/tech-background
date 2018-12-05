@@ -2,7 +2,7 @@ import React from "react";
 import { Slide, Layout, Fill, Text, Image, Heading } from "spectacle";
 import AppearInOrder from "../../components/AppearInOrder";
 
-function Frontend2() {
+function FrontendChatbird() {
   return (
     <Slide align="flex-start flex-start">
       <div>
@@ -56,4 +56,4 @@ function Frontend2() {
   );
 }
 
-export default Frontend2;
+export default FrontendChatbird;

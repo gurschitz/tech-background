@@ -1,33 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Slide, Text } from "spectacle";
-import posed from "react-pose";
 import AppearInOrder from "../../components/AppearInOrder";
+import Heartbeat from "../../components/Heartbeat";
 
-const Heartbeat = posed.div({
-  small: { scale: 1 },
-  big: { scale: 1.2 }
-});
-
-function Heart() {
-  const [state, setState] = useState<"small" | "big">("small");
-  useEffect(
-    () => {
-      const interval = setInterval(() => {
-        if (state === "small") {
-          setState("big");
-        } else {
-          setState("small");
-        }
-      }, 800);
-
-      return () => {
-        clearInterval(interval);
-      };
-    },
-    [state]
-  );
-
-  console.log(state);
+function UseReact() {
   return (
     <Slide align="center center">
       <div
@@ -47,14 +23,15 @@ function Heart() {
             alignItems: "center"
           }}
         >
-          <Heartbeat pose={state}>💙</Heartbeat>
+          <Heartbeat speed={800}>💙</Heartbeat>
           <span className="ml2">React</span>
         </div>
 
         <AppearInOrder>
           <div className="mt4">
             <Text>
-              <strong>usereact.io</strong>: React course in Amstetten
+              <strong>usereact.io</strong>: React course in Amstetten / Lower
+              Austria
             </Text>
           </div>
         </AppearInOrder>
@@ -63,4 +40,4 @@ function Heart() {
   );
 }
 
-export default Heart;
+export default UseReact;
